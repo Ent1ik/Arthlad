@@ -1,6 +1,6 @@
 from flask import Flask, request
 
-app = Flask(name)
+app = Flask(__name__)
 
 @app.route('/alice', methods = ['POST'])
 def resp():
