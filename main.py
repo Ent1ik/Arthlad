@@ -15,4 +15,4 @@ def resp():
         'version': '1.0'
     }
     return response
-app.run('0.0.0.0', port = 5000, debug = True)
+
