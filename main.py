@@ -9,8 +9,8 @@ def resp():
     response = {
         'response': {
             'text': response_text,
-            'end_session': False,
-            'suggests': ['йоу']
+            'end_session': False
+            
         },
         'version': '1.0'
     }
